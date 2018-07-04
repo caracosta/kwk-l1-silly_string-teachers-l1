@@ -12,19 +12,34 @@ You can run `learn` to see if the tests are passing.
 
 1. Create a string that contains your favorite word. It can be in any language!
 
-2. Using a method built into ruby, capitalize every letter in the string you just created
+"hola guapa"
 
-3. Now let's make all the characters lowercase in the string `"IM NOT SHOUTING"`
+<!--2. Using a method built into ruby, capitalize every letter in the string you just created-->
 
-4. Using a method built into ruby, count how many letters are in the string `"supercalifragilisticexpialidocious"`
+"hola guapa".capitalize
 
-5. Now let's add more words to that string, using `+` just like in math. That's called concatenation. Let's add together to the two strings `"wow"` and `"mom"`.
+<!--3. Now let's make all the characters lowercase in the string `"IM NOT SHOUTING"`-->
 
-6. Now let's capitalize just the first letter of the sentence `"i really like programming"`
+"IM NOT SHOUTING".downcase
 
-7. Let's take the string `"Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"`. We want to use the `gsub` method to switch all `A` for `O`, as well as all `a` for `o`. We'll need to chain `gsub`s.
-<p data-visibility='hidden'>KWK-L1 Silly String</p>
+<!--4. Using a method built into ruby, count how many letters are in the string `"supercalifragilisticexpialidocious"`-->
 
-## Hints
+"supercalifragilisticexpialidocious".length
 
-Don't edit the variable names in the file. Try running `ruby silly_string.rb` to see what is being printed.
+<!--5. Now let's add more words to that string, using `+` just like in math. That's called concatenation. Let's add together to the two strings `"wow"` and `"mom"`.-->
+
+"wow"+"mom"
+
+<!--6. Now let's capitalize just the first letter of the sentence `"i really like programming"`-->
+
+"i really like programming".capitalize
+
+<!--7. Let's take the string `"Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"`. We want to use the `gsub` method to switch all `A` for `O`, as well as all `a` for `o`. We'll need to chain `gsub`s.-->
+
+"Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+
+<!--<p data-visibility='hidden'>KWK-L1 Silly String</p>-->
+
+<!--## Hints-->
+
+<!--Don't edit the variable names in the file. Try running `ruby silly_string.rb` to see what is being printed.-->
